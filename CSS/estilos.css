@@ -1,29 +1,44 @@
 
 
   
-h3 {
+.cv {
   text-decoration: underline; 
-  text-decoration-color: blue;
+  text-decoration-color: green;
+  text-decoration-thickness: 5px;
+  
 }
 
-  section {
+  section#datos1 {
     
     text-align: center;
     
 }
-    
+
+section#lorem {
+    text-indent: 10px;
+    border:7px solid #008b31;
+    margin: 50px;
+    padding: 10px;
+
+
+}
+
+   
 
   .center {
     display: block;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     width: 25%;
   }
 
-  div {
-    width: 300px;
-    padding: 50px;
-    margin: 20px;
+  
+
+  #datos2 {
+    
+    margin-top: 100px;
+    margin-bottom: 100px;
   }
 
   a{
@@ -31,4 +46,68 @@ h3 {
     margin-left:10px;
   } 
 
+  .container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+   }
  
+ footer{
+background-color: black;
+color: white;
+ }
+
+
+ .marco1 {
+  padding:8px;
+  background-color: #000000;
+  width: auto;
+  border: 5px solid #008b31;
+}
+
+
+  
+
+
+div.info {
+  max-width: 300px;
+  margin-left: 50px;
+  margin-right: 0; 
+}
+ 
+
+.tabla {
+  border: 5px solid black;
+  
+
+
+}
+
+#hab {
+  text-align: center;
+}
+
+td { 
+  font-weight: bold;
+  color: black;
+  font-size: medium;
+  height: 60px; /* para que no se desforme la tabla*/
+  vertical-align: middle;
+}
+
+.categoria{
+
+  color: black;
+}
+
+span {
+  font-weight: lighter;
+  color: grey;
+}
+
+
+.cat {
+  font-size: medium;
+  color: green;
+  width: 30%;/* para que no se desforme la tabla*/
+}
+
